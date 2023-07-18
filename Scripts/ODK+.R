@@ -32,7 +32,7 @@ C_T_results4 <- inner_join(SIS_Cod, C_T_results3, by=c("SIS-Cod"="qGeo", "Prov-C
 head(C_T_results4)
 
 #Write to disk
-write.csv(C_T_results4, file = "Results/C_T_results.csv")                       
+write.csv(C_T_results4, file = "Results/C_T_results.csv")                      
                        
                         
 
