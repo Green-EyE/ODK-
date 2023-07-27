@@ -1,4 +1,4 @@
-#Reshape C_T data-set by Green_Eye
+#Reshape APSSPP_results data-set by Green_Eye
 
 rm(list = ls())
 
@@ -28,8 +28,9 @@ head(APSSPP_results1)
 #                                        "domainScore7"= "groupForm:groupDS7:domainScore7")
 #head(APSSPP_results2)
 
-# Joint data frames
 
+APSSPP_results1$`groupGeo:province` = as.numeric(as.character(APSSPP_results1$`groupGeo:province`))
+# Joint data frames
 APSSPP_results2 <- inner_join(SIS_Cod, APSSPP_results1, by=c("SIS-Cod"="groupGeo:QGeo", "Prov-Cod" = "groupGeo:province", "Dist."= "groupGeo:district"))
 head(APSSPP_results2)
 
