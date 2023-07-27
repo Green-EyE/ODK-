@@ -27,7 +27,7 @@ head(DAH_Geral_results1)
 #head(APSSPP_results2)
 
 
-
+#convert a data frame column to numeric type
 DAH_Geral_results1$`groupGeo:province` = as.numeric(as.character(DAH_Geral_results1$`groupGeo:province`))
 
 

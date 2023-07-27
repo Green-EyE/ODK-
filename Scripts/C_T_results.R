@@ -27,6 +27,7 @@ head(C_T_results2)
 #                       "domainScore7"= "groupForm:groupDS7:domainScore7")
 #head(C_T_results3)
 
+#convert a data frame column to numeric type
 C_T_results2$`groupGeo:province` = as.numeric(as.character(C_T_results2$`groupGeo:province`))
 
 # Joint data frames
