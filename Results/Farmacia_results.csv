@@ -1,0 +1,15 @@
+"","Prov-Cod","Prov","Dist.","US","SIS-Cod","central_code","groupNivelSupervisao:QSupLevel","groupNivelSupervisao:supervisor","QSupCode","groupForm:groupGI:QGIPartner","groupForm:groupDS2:domainScore2","groupForm:groupDS3:domainScore3","groupForm:groupDS4:domainScore4","groupForm:groupDS5:domainScore5","groupForm:groupDS6:domainScore6","groupForm:groupDS7:domainScore7","groupForm:groupDS8:domainScore8","groupForm:groupDS9:domainScore9","groupForm:groupDS10:domainScore10"
+"1",8,"INHAMBANE","HOMOINE","CS Homoine","VjpiUDWADWj","supervisao999","central",NA,"supervisao999","EGPAF",50,71,40,75,42,50,63,0,0
+"2",8,"INHAMBANE","MAXIXE","CS Chicuque","XAGdOEhSp0S","supervisao999","central",NA,"supervisao999","EGPAF",83,86,80,83,25,30,32,33,33
+"3",8,"INHAMBANE","MORRUMBENE","CS Morrumbene","v7yWEibceYk","supervisao999","central",NA,"supervisao999","EGPAF",100,71,60,67,0,50,59,0,0
+"4",6,"MANICA","BÁRUE","HD Catandica","C5sZYUmuWE2","supervisao999","central",NA,"supervisao999","ECHO",100,71,60,100,25,100,62,0,0
+"5",6,"MANICA","CIDADE DE CHIMOIO","CS Nhamaonha","sm7nB6raArY","supervisao999","central",NA,"supervisao999","ECHO",83,71,80,92,17,25,0,100,100
+"6",6,"MANICA","GONDOLA","CS Mutocoma","agwdFPrFJnr","supervisao999","central",NA,"supervisao999","ECHO",67,57,100,70,25,88,53,0,0
+"7",6,"MANICA","GURO","CS Guro - Sede","uhbknO6KTt5","supervisao999","central",NA,"supervisao999","ECHO",67,57,60,75,42,50,0,67,67
+"8",3,"NAMPULA","ANGOCHE","HR Angoche","J2qZCU8X0BI","supervisao999","central","MISAU","supervisao999","ICAP",83,100,80,83,25,78,65,0,NA
+"9",3,"NAMPULA","DISTRITO DE NAMPULA","CS 25 de Setembro","pt3uFvNsHDF","supervisao999","central","MISAU","supervisao999","ICAP",83,100,60,100,0,67,81,0,NA
+"10",3,"NAMPULA","DISTRITO DE NAMPULA","CS Niarro","MEEriHK2OlN","supervisao999","central","MISAU","supervisao999","ICAP",67,57,60,100,25,86,64,0,NA
+"11",3,"NAMPULA","MOGOVOLAS","CS Nanhupo Rio","RyHDFZVUdXW","supervisao999","central","MISAU","supervisao999","ICAP",83,86,20,67,33,78,56,0,NA
+"12",7,"SOFALA","CHERINGOMA","CS Inhaminga","PBYuexaSh6x","supervisao999","central","MISAU","supervisao999","ECHO",100,100,20,92,25,100,67,0,NA
+"13",7,"SOFALA","DONDO","CS Mafambisse","LQDwTv4guwS","supervisao999","central","MISAU","supervisao999","ECHO",67,86,100,33,25,80,57,100,NA
+"14",7,"SOFALA","MUANZA","CS Muanza","Ve066Oi87qb","supervisao999","central","MISAU","supervisao999","nao_ajuda",67,57,60,73,25,67,64,0,NA
