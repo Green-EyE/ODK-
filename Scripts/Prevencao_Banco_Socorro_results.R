@@ -1,4 +1,4 @@
-#Reshape Prev_triagem_ADU data-set by PaundeJr
+#Reshape Prev_BS data-set by PaundeJr
 
 rm(list = ls())
 
@@ -10,7 +10,7 @@ library(dplyr)
 
 #Read files into R environment
 SIS_Cod <- read_excel("~/Dashboard/SIS-Cod.xlsx")
-C_T_results1 <- read_csv("~/Dashboard/excel/Prevencao_Triagem_ADU_results.csv")
+C_T_results1 <- read_csv("~/Dashboard/excel/Prevencao_Banco_Socorro_results.csv")
 head(C_T_results1)
 
 #Select columns needed
@@ -47,7 +47,7 @@ C_T_results3 <- C_T_results2 %>% rename("central_code"= "central_code" ,
                                         "provinceCode"= "groupGeo:province",	
                                         "district"= "groupGeo:district",
                                         "qGeo"= "groupGeo:QGeo",
-                                        "qSupCode"="QSupCode",
+                                        "qSupCode"="QSupCode" ,
                                         "qGIPartner"="groupForm:groupGI:QGIPartner",
                                         "Oferta de Servicos" = "groupForm:group0:groupDS1:domainScore1",
                                         "Material de apoio, instrumentos de registo e consumi­veis1" = "groupForm:group0:groupDS2:domainScore2",
@@ -57,13 +57,13 @@ C_T_results3 <- C_T_results2 %>% rename("central_code"= "central_code" ,
                                         "Material de apoio" = "groupForm:group0:groupDS6:domainScore6",
                                         "Conhecimento dos materiais de apoio2" = "groupForm:group0:groupDS7:domainScore7",
                                         "Consumi­veis" = "groupForm:group0:groupDS8:domainScore8",
-                                        "Material de apoio, instrumentos de registo e consumi­veis2" = "groupForm:group0:groupDS9:domainScore9",
+                                        "Material de apoio, instrumentos de registo e consumi­veis2" = "groupForm:group0:groupDS9:domainScore9", 
                                         "Conhecimento dos materiais de apoio3" = "groupForm:group0:groupDS10:domainScore10",
                                         "Material de apoio, instrumentos de registo" = "groupForm:group0:groupDS11:domainScore11",
-                                        "Conhecimento dos material de apoio4" = "groupForm:group0:groupDS12:domainScore12",
+                                        "Conhecimento do material de apoio4" = "groupForm:group0:groupDS12:domainScore12",
                                         "Oferta de servicos" = "groupForm:group0:groupDS13:domainScore13",
                                         "Material de apoio e instrumentos de registo" = "groupForm:group0:groupDS14:domainScore14",
-                                        "Conhecimento dos material de apoio5" = "groupForm:group0:groupDS15:domainScore15",
+                                        "Conhecimento do material de apoio5" = "groupForm:group0:groupDS15:domainScore15",
                                         "Registo de informacao2" = "groupForm:group0:groupDS16:domainScore16")
 head(C_T_results3)
 
@@ -72,7 +72,7 @@ C_T_results4 <- inner_join(SIS_Cod, C_T_results3, by=c("SIS-Cod"="qGeo", "Prov-C
 head(C_T_results4)
 
 #Write to disk
-write.csv(C_T_results4, file = "~/Dashboard/Results/Prevencao_Triagem_ADU.csv")                       
-  
-
-
+write.csv(C_T_results4, file = "~/Dashboard/Results/Prevencao_Banco_Socorro.csv")                       
+                       
+                  
+ 
